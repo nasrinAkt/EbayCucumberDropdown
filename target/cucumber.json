@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify user in baby page",
+        "description": "",
+        "id": ";verify-user-in-baby-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3580686400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "open ebay application",
+            "match": {
+              "location": "stepClass.open_ebay_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2228442800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "select Baby from dropdown",
+            "match": {
+              "location": "stepClass.select_Baby_from_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3057884200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on search button",
+            "match": {
+              "location": "stepClass.click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2252216400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify user in baby page",
+            "match": {
+              "location": "stepClass.verify_user_in_baby_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "drop.feature"
+  }
+]
